@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(144, 161, 156);
+        }
+        header {
+            background-color: rgb(208, 224, 224);
+            padding: 10px;
+            margin: 10px;
+        }
+        h1 {
+            background-color: rgb(231, 214, 214);
+            text-align: center;
+        }
+        main {
+            background-color: rgb(196, 214, 230);
+            padding: 10px;
+            margin: 10px;
+        }
+        footer {
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 5px;
+            margin: 10px;
+        }
+        nav {
+            background-color: black;
+            padding: 3px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.562);
+             }
+             nav > a {
+                text-decoration: none;
+                color:aliceblue;
+                font-weight: 30px;
+             }
+             nav > a:hover {
+                text-decoration: underline;
+             }
+            article {
+                background-color: aliceblue;
+                padding: 5px;
+
+            }
+            article > aside {
+                background-color: aliceblue;
+            }
+            
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+      <section id="assuntos">
+
+      </section>
+      <section id="noticias">
+        <article>
+            <h2>Noticias sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ducimus enim obcaecati reprehenderit! Optio, minima quisquam, consectetur ipsam fuga modi quo enim accusantium dolores praesentium asperiores error non consequuntur libero?</p>
+            <aside>
+                <p>Artigo escrito por Pedro Manoel</p>
+            </aside>
+            
+        </article>
+
+      
+    </main>
+    <footer>Desenvolvido Por Pedro Manoel</footer>
+</body>
+</html>
